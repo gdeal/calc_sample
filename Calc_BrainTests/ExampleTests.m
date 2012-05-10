@@ -71,7 +71,6 @@
 
 - (void) test_subtract_two_positive
 {
-    sleep(1);
     float value = [testCalculator subtract_num:7 with_num:4];
     float expected = 3;
     
@@ -80,7 +79,6 @@
 
 - (void) test_subtract_two_negative
 {
-    sleep(1);
     float value = [testCalculator subtract_num:-7 with_num:-4];
     float expected = -3;
     
@@ -89,14 +87,13 @@
 
 - (void) test_subtract_positive_negative
 {
-    sleep(1);
     float value = [testCalculator subtract_num:-7 with_num:4];
     float expected = -11;
     
     GHAssertEquals(value, expected, @"");
 }
 
-- (void) test_multiply
+- (void) test_multiply_two_positive
 {
     sleep(3);
     float value = [testCalculator multiply_num:90 with_num:12];
@@ -105,11 +102,45 @@
     GHAssertEquals(value, expected, @"");
 }
 
-- (void) test_divide
+- (void) test_multiply_two_negative
+{
+    float value = [testCalculator multiply_num:-5 with_num:-5];
+    float expected = 25;
+    
+    GHAssertEquals(value, expected, @"");
+}
+
+- (void) test_multiply_negative_positive
+{
+    float value = [testCalculator multiply_num:-4 with_num:3];
+    float expected = -12;
+    
+    GHAssertEquals(value, expected, @"");
+}
+
+- (void) test_divide_two_positives
 {
     sleep(2);
     float value = [testCalculator divide_num:8 with_num:4];
     float expected = 2;
     
     GHAssertEquals(value, expected, @"");}
+
+- (void) test_divide_two_negative
+{
+
+float value = [testCalculator divide_num:-8 with_num:-4];
+float expected = 2;
+
+GHAssertEquals(value, expected, @"");
+}
+
+- (void) test_divide_negative_positive
+{
+    
+    float value = [testCalculator divide_num:-8 with_num:4];
+    float expected = -2;
+    
+    GHAssertEquals(value, expected, @"");
+}
 @end
