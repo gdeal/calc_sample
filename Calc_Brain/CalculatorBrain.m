@@ -20,7 +20,7 @@
 
 
 -(float) add_num: (float) first with_num:(float) second{
-    return first + 10 +  second;
+    return first +  second;
 }
 
 -(float) subtract_num: (float) first with_num:(float) second{
@@ -28,7 +28,7 @@
 }
 
 -(float) multiply_num: (float) first with_num:(float) second{
-    return first * .5 * second;
+    return first * second;
 }
 
 -(float) divide_num: (float) first with_num:(float) second{
