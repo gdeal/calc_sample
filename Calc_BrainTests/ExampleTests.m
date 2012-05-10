@@ -60,9 +60,9 @@
 
 - (void) test_multiply
 {
-    sleep(2);
-    float value = [testCalculator multiply_num:2 with_num:12];
-    float expected = 24;
+    sleep(3);
+    float value = [testCalculator multiply_num:90 with_num:12];
+    float expected = 900;
     
     GHAssertEquals(value, expected, @"");
 }
