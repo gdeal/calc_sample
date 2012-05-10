@@ -51,10 +51,10 @@
 - (void) test_add_two_negative
 {
     //Testing pushes to github
-    float value = [testCalculator add_num:-3 with_num:-4];
-    float expected = -7;
+    float value = [testCalculator add_num:-5 with_num:-10];
+    float expected = -15;
     
-    GHAssertEquals(value, expected, @"Adding -3 and -4");
+    GHAssertEquals(value, expected, @"Adding -5 and -10");
 }
 
 - (void) test_add_positive_negative
@@ -63,7 +63,7 @@
     float value = [testCalculator add_num:-3 with_num:13];
     float expected = 10;
     
-    GHAssertEquals(value, expected, @"Adding -3 and 4");
+    GHAssertEquals(value, expected, @"Adding -3 and 13");
 }
 
 - (void) test_subtract_two_positive
@@ -131,7 +131,7 @@
     float value = [testCalculator divide_num:-20 with_num:-10];
     float expected = 2;
 
-    GHAssertEquals(value, expected, @"Dividing -8 by -4");
+    GHAssertEquals(value, expected, @"Dividing -20 by -10");
 }
 
 - (void) test_divide_negative_positive
@@ -140,6 +140,6 @@
     float value = [testCalculator divide_num:-12 with_num:6];
     float expected = -2;
     
-    GHAssertEquals(value, expected, @"Dividing -8 by 4");
+    GHAssertEquals(value, expected, @"Dividing -12 by 6");
 }
 @end
