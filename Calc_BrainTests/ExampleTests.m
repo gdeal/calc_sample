@@ -96,7 +96,7 @@
 - (void) test_multiply_two_positive
 {
     sleep(3);
-    float value = [testCalculator multiply_num:90 with_num:12];
+    float value = [testCalculator multiply_num:90 with_num:10];
     float expected = 900;
     
     GHAssertEquals(value, expected, @"");
