@@ -39,7 +39,7 @@
     // Run after each test method
 }  
 
-- (void) test_add
+- (void) test_add_two_positive
 {
     //Testing pushes to github
     sleep(1);
@@ -49,7 +49,7 @@
     GHAssertEquals(value, expected, @"");
 }
 
-- (void) test_add_negative
+- (void) test_add_two_negative
 {
     //Testing pushes to github
     sleep(0);
@@ -59,11 +59,39 @@
     GHAssertEquals(value, expected, @"");
 }
 
-- (void) test_subtract
+- (void) test_add_positive_negative
+{
+    //Testing pushes to github
+    sleep(0);
+    float value = [testCalculator add_num:-3 with_num:4];
+    float expected = 1;
+    
+    GHAssertEquals(value, expected, @"");
+}
+
+- (void) test_subtract_two_positive
 {
     sleep(1);
     float value = [testCalculator subtract_num:7 with_num:4];
     float expected = 3;
+    
+    GHAssertEquals(value, expected, @"");
+}
+
+- (void) test_subtract_two_negative
+{
+    sleep(1);
+    float value = [testCalculator subtract_num:-7 with_num:-4];
+    float expected = -3;
+    
+    GHAssertEquals(value, expected, @"");
+}
+
+- (void) test_subtract_positive_negative
+{
+    sleep(1);
+    float value = [testCalculator subtract_num:-7 with_num:4];
+    float expected = -11;
     
     GHAssertEquals(value, expected, @"");
 }
