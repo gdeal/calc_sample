@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/Calc_BrainTests/ExampleTests.m \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHUnit.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTestCase.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTestMacros.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/NSException+GHTestFailureExceptions.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/NSValue+GHValueFormatter.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTest.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHAsyncTestCase.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTestSuite.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTestGroup.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTestRunner.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTesting.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTestOperation.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTest+JUnitXML.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHTestGroup+JUnitXML.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHUnitIOSAppDelegate.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/GHUnitIOS.framework/Headers/GHViewTestCase.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/Calc_BrainTests/OCMock/OCMock.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/Calc_BrainTests/OCMock/OCMockObject.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/Calc_BrainTests/OCMock/OCMockRecorder.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/Calc_BrainTests/OCMock/OCMConstraint.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/Calc_BrainTests/OCMock/OCMArg.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/Calc_BrainTests/OCMock/NSNotificationCenter+OCMAdditions.h \
+  /Users/Solaris/Documents/Xcode_Projects/calc_sample/Calc_Brain/CalculatorBrain.h

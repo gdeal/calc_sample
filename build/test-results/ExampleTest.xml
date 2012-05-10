@@ -1,0 +1,1 @@
+<testsuite name="ExampleTest" tests="4" failures="0" time="4.0035"><testcase name="test_add" classname="GHTest" time="1.0012"></testcase><testcase name="test_divide" classname="GHTest" time="2.0011"></testcase><testcase name="test_multiply" classname="GHTest" time="1.0012"></testcase><testcase name="test_subtract" classname="GHTest" time="0.0001"></testcase></testsuite>

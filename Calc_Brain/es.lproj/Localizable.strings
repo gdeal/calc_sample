@@ -1,0 +1,46 @@
+
+/* 
+  Localizable.strings
+  VerseMinder
+
+  Created by pnurkkal on 11/17/11.
+  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+*/
+
+"HOME" = "Casa"; 
+
+"MEMORIZE" = "Memorizar"; 
+
+"DIRECTIONS" = "Instrucciones"; 
+
+"SETTINGS" = "Configuración"; 
+
+"TIPS" = "Consejos";
+
+"MEMORIZE" = "Memorizar"; 
+
+"TIP TOPICS" = "Temas Punta";
+
+"TRANSLATION" = "Traducción"; 
+
+"MANUAL DIFFICULTY" = "Manual de dificultad";
+
+"STACKS" = "Pilas"; 
+
+"HIDDEN WORDS" = "Palabras Ocultas";
+
+"DRAG THE WORDS" = "Arrastrar las Palabras";
+
+"STATS" = "Estadística";
+
+"FLASHCARDS" = "Tarjetas de Memoria"; 
+
+"VERSE GETTER" = "Verso Gettero";
+
+"SEARCH RESULTS" = "Searcho Resultos";
+
+"DIFFICULTY" = "Dificultad";
+
+"TRANSLATIONS" = "Traducciones";
+
+"HELP" = "Ayuda";
