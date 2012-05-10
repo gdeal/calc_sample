@@ -41,7 +41,7 @@
 
 - (void) test_add
 {
-    //Testing pushes to gitHub
+    //Testing pushes
     sleep(1);
     float value = [testCalculator add_num:3 with_num:4];
     float expected = 7;
