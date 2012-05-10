@@ -49,6 +49,16 @@
     GHAssertEquals(value, expected, @"");
 }
 
+- (void) test_add_negative
+{
+    //Testing pushes to github
+    sleep(0);
+    float value = [testCalculator add_num:-3 with_num:-4];
+    float expected = -7;
+    
+    GHAssertEquals(value, expected, @"");
+}
+
 - (void) test_subtract
 {
     sleep(1);
