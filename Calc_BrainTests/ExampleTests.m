@@ -62,7 +62,7 @@
 {
     sleep(1);
     float value = [testCalculator multiply_num:2 with_num:12];
-    float expected = 24;
+    float expected = 4;
     
     GHAssertEquals(value, expected, @"");
 }
